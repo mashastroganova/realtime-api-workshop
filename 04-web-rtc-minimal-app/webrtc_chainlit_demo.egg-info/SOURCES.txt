@@ -1,0 +1,8 @@
+main.py
+pyproject.toml
+realtime_client.py
+webrtc_chainlit_demo.egg-info/PKG-INFO
+webrtc_chainlit_demo.egg-info/SOURCES.txt
+webrtc_chainlit_demo.egg-info/dependency_links.txt
+webrtc_chainlit_demo.egg-info/requires.txt
+webrtc_chainlit_demo.egg-info/top_level.txt

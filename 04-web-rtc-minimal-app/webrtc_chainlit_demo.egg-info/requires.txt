@@ -1,0 +1,6 @@
+chainlit>=1.0.100
+aiortc>=1.7
+av>=12.0
+sounddevice>=0.4
+python-dotenv>=1.0
+httpx>=0.27

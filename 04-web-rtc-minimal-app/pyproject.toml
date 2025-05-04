@@ -1,0 +1,22 @@
+[project]
+name        = "webrtc-chainlit-demo"
+version     = "0.1.0"
+description = "Tiny Chainlit + Azure OpenAI Realtime WebRTC demo"
+requires-python = ">=3.9"
+
+dependencies = [
+  "chainlit>=1.0.100",
+  "aiortc>=1.7",
+  "av>=12.0",
+  "sounddevice>=0.4",
+  "python-dotenv>=1.0",
+  "httpx>=0.27"
+]
+
+[build-system]
+requires = ["setuptools>=63", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# 👇 **tell setuptools exactly which single-file modules to expose**
+[tool.setuptools]
+py-modules = ["realtime_client", "main"]
